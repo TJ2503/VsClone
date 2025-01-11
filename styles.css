@@ -1,0 +1,168 @@
+ * {
+     margin: 0;
+     padding: 2px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ body {
+     background-color: rgb(33, 30, 30);
+     color: white;
+ }
+ 
+ nav {
+     background-color: black;
+     color: white;
+ }
+ 
+ nav ul {
+     display: flex;
+     justify-content: center;
+ }
+ 
+ nav ul li {
+     list-style: none;
+     margin: 10px;
+ }
+ 
+ nav ul li a {
+     text-decoration: none;
+     color: white
+ }
+ 
+ .logo {
+     font-size: larger;
+     font-weight: 5px;
+ }
+ 
+ .ct {
+     text-align: center;
+ }
+ 
+ .ct h1 {
+     font-size: 400%;
+ }
+ 
+ .ct * {
+     margin: 10px;
+ }
+ 
+ .cw {
+     display: grid;
+     gap: 4px;
+     grid-template-columns: 33% 33% 33%;
+ }
+ 
+ .cs {
+     width: auto;
+     height: auto;
+     margin-bottom: 40px;
+     text-align: justify;
+     border: solid rgb(255, 255, 255);
+     padding: 20px;
+     border-radius: 10px;
+     margin: 5px;
+     border-width: 1px;
+     box-shadow: 3px 3px 3px rgb(66, 2, 98);
+     background-color: rgb(15, 2, 27);
+ }
+ 
+ .ba,
+ .bb {
+     font-size: large;
+     border: solid white;
+     color: white;
+     padding: 6px;
+     border-radius: 4px;
+ }
+ 
+ .ba {
+     background-color: rgb(33, 105, 219);
+     border: solid white;
+     border-width: 1px;
+ }
+ 
+ .bb {
+     background-color: rgb(51, 53, 57);
+     border: solid white;
+     border-width: 1px;
+ }
+ 
+ .c1 {
+     display: flex;
+     margin: 10px;
+     padding: 10px;
+ }
+ 
+ .c1 img {
+     width: 100%;
+     border-radius: 20px;
+ }
+ 
+ .c1-text-l {
+     text-align: left;
+     width: 80%;
+ }
+ 
+ .c2 {
+     border: solid white;
+     border-radius: 10px;
+     border-width: 1px;
+     display: flex;
+     justify-content: space - between;
+     margin: 5px;
+     padding: 10px;
+     background: linear - gradient(to right, rgb(3, 3, 78), rgb(55, 0, 128), rgb(65, 3, 48));
+ }
+ 
+ .c3 {
+     display: flex;
+     margin: 100px;
+ }
+ 
+ .c3 -l,
+ .c3 -r {
+     padding: 50px;
+ }
+ 
+ .c4 {
+     display: grid;
+     grid-template-columns: 25% 25% 25% 25%;
+     gap: 5px;
+ }
+ 
+ .ca4 {
+     text-align: justify;
+     margin: 20px;
+     padding: 4px;
+     border-radius: 10px;
+     background-color: rgb(15, 2, 27);
+     border: solid white;
+     border-width: 1px;
+     box-shadow: 3px 3px 3px rgb(66, 2, 98);
+     transition: 0.5s;
+ }
+ 
+ .ca4:hover {
+     box-shadow: 4px 4px 40px rgb(95, 88, 88);
+ }
+ 
+ iframe {
+     border-radius: 10px;
+ }
+ 
+ iframe:hover {
+     box-shadow: 4px 4px 40px rgb(95, 88, 88);
+ }
+ 
+ footer {
+     display: flex;
+     justify-content: space-between;
+     padding: 40px;
+     background-color: black;
+ }
+ 
+ video {
+     width: 80%;
+     max-width: 600px;
+     margin: 2em auto;
+ }
